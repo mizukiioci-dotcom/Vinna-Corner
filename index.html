@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vinna’s Corner – Devina Nur Salsabilla</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="site-title">Vinna’s Corner</h1>
+    <nav aria-label="Main navigation">
+      <a href="#profile">About</a>
+      <a href="#hobbies">Hobbies</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="profile">
+      <span class="badge">Hello, world ✨</span>
+
+      <div class="avatar">
+        <span class="initial" aria-hidden="true">V</span>
+        <img src="profile.jpg" alt="Photo of Devina Nur Salsabilla" onerror="this.remove()">
+      </div>
+
+      <div class="hero-text">
+        <h2>Devina Nur Salsabilla</h2>
+        <p class="nickname">Everyone calls me Vinna</p>
+        <p id="description">Hi! I’m a curious soul who loves quiet evenings, soft melodies, and a good story.</p>
+
+        <div class="actions">
+          <button id="textBtn" type="button">Change Text</button>
+          <button id="themeBtn" type="button">🌙 Switch Theme</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2 class="section-title">Hobbies &amp; Skills</h2>
+      <div class="gallery">
+        <article class="card">
+          <span class="icon" aria-hidden="true">🎹</span>
+          <h3>Playing the Piano</h3>
+          <p>Turning notes into feelings, one gentle melody at a time.</p>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🏃‍♀️</span>
+          <h3>Sports</h3>
+          <p>Staying active keeps my body strong and my mind bright.</p>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">📚</span>
+          <h3>Reading Books</h3>
+          <p>Exploring new worlds and ideas between the pages.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Devina Nur Salsabilla</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
